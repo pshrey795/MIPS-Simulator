@@ -18,4 +18,14 @@ Non-blocking Memory
 * We can use the fact, that the memory and processor are separate, to our advantage by considering their execution to be parallel. So, once a request has been issued to the DRAM, we can allow the processor to move on to further instructions without any delay.
 * Another plausible optimisation is to store the memory access operations in a queue, so even when there are multiple consecutive requests, the execution doesn't stall.
 
-The complete explanation for this can be found in the [design document](https://github.com/pshrey795/MIPS-Simulator/blob/main/DRAMMemoryModel/Design.pdf);
+The complete explanation for this can be found in the [design document](https://github.com/pshrey795/MIPS-Simulator/blob/main/DRAMMemoryModel/Design.pdf).
+
+How to run the code?
+---
+1. First clone the directory using `git clone https://github.com/pshrey795/MIPS-Simulator.git`.
+2. Navigate to the MIPSInterpreter sub-directory and type `make all` in terminal to build the code.
+3. There are two different implementations for non-blocking memory as discussed in the document, and both of them can be run separately:
+   * For implementation 1, type `./output1 <input_MIPS_code`.
+   * For implementation 2, type `./output2 <input_MIPS_code`.
+4. The relevent details about the registers and memory will be printed on the console after the program execution.
+5. If there is an error in the syntax or semantics, a relevant error message will be printed instead.
