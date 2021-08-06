@@ -1,0 +1,3 @@
+lw $t0, 3000($zero)
+lw $t1, 3004($zero)
+lw $t2, 3008($zero)

@@ -1,0 +1,4 @@
+lw $t0, ($zero)
+lw $t1, 4($zero)
+lw $t2, 1024($zero)
+lw $t3, 1028($zero)

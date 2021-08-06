@@ -7,7 +7,7 @@ The exact specifications can be found in the [problem statement](https://github.
 * This can be done by reordering the memory access requests such that those accesses which use the same row of the DRAM can be grouped together to minimise the number of switchings required. 
 * In this implementation as well, we need to keep track of unsafe instructions, as the memory access operation which is postponed to decrease the delay, may be updating a register which is to be used in subsequent instructions.
 
-The complete explanation for this can be found in the [design document](https://github.com/pshrey795/MIPS-Simulator/blob/main/MemoryRequest r   eordering/Design.pdf).
+The complete explanation for this can be found in the [design document](https://github.com/pshrey795/MIPS-Simulator/blob/main/MemoryRequestReordering/Design.pdf).
 
 How to run the code?
 ---
@@ -17,3 +17,8 @@ How to run the code?
 3. For execution of the code, type `./output <intput_MIPS_code>` on the console.
 4. The relevent details about the registers and memory will be printed for every clock cycle along with the statistics at the end.
 5. If there is an error in the syntax or semantics, an appropriate error message will be printed instead.
+
+Testing
+---
+
+The testcases are contained in [this folder](https://github.com/pshrey795/MIPS-Simulator/tree/main/MemoryRequestReordering/Testcases). There are various types of testcases which is denoted by the name of that testcase.

@@ -1,0 +1,2 @@
+addi $t0, $zero, 1
+lw $t0, 2000($zero)

@@ -1,0 +1,18 @@
+addi $s0, $zero, 0
+lw $t0, 5000($s0)
+addi $s1, $zero, 0
+lw $t1, 7000($s1)
+addi $s0, $s0, 4
+lw $t2, 5000($s0)
+addi $s1, $s1, 4
+lw $t3, 7000($s1)
+addi $s0, $s0, 0
+lw $t4, 5008($s0)
+addi $s1, $s1, 4
+lw $t5, 7000($s1)
+addi $s0, $s0, 8
+addi $s0, $s0, 8
+addi $t0, $s0, 0	
+lw $t6, 5000($s0)	
+addi $s1, $s1, 0
+lw $t7, 7004($s1)	
