@@ -16,9 +16,9 @@ How to run the code?
 2. Navigate to the MIPSInterpreter sub-directory and type `make all` in terminal to build the code.
 3. To run the interpreter, type `./output <input_MIPS_code>` in the terminal.
 4. The relevent details about the registers and memory will be printed on the console after the program execution.
-5. If there is an error in the syntax or the semantics, a relevant error message will be printed instead.
+5. If there is an error in the syntax or semantics, a relevant error message will be printed instead.
 
 Testing
 ---
 
-The testcases, both the valid(to check execution) and invalid(to check error handling), are contained in [this folder](https://github.com/pshrey795/MIPS-Simulator/tree/main/MIPSInterpreter/Testcases).
+The testcases, both the valid(to check execution) and invalid(to check error handling), are contained in [this folder](https://github.com/pshrey795/MIPS-Simulator/tree/main/MIPSInterpreter/Testcases). 
